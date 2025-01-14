@@ -17,7 +17,8 @@ class Test{
 public class StaticBlock {
     public static void main(String[] args) {
         Test t = new Test(); // For executing static just use class i.e making object of class loads the class.
-                             // thus, without using object, Static block gets called.
-
+              // thus, without using object, Static block gets called.
+        System.out.println(t.hashCode());
+        
     }
 }
