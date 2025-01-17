@@ -7,7 +7,7 @@ public class ExceptionHandling {
             int a=10;
             int b=10;
             int c=b/a;
-
+  
             try{                                    /////////////////////
                 int d;
                 System.out.println(A[10]);
