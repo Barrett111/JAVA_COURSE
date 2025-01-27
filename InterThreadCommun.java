@@ -53,6 +53,8 @@ class producer extends Thread{
     }
 }
 
+
+
 class Consumer extends Thread{
     myData data;
 
@@ -73,6 +75,7 @@ class Consumer extends Thread{
 
 
 
+
 public class InterThreadCommun {
     public static void main(String[] args) {
         
@@ -80,9 +83,12 @@ public class InterThreadCommun {
 
         producer p = new producer(data);
         Consumer c = new Consumer(data);
+       
 
         p.start();
+       
         c.start();
+      
 
        
     }
