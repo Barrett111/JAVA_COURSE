@@ -17,7 +17,7 @@ public class MethodReference {
         sb.reverse();
         System.out.println(sb);
     }
-
+//non-static method
     public void reversed(String str){
         StringBuffer sb =new StringBuffer(str);
         sb.reverse();

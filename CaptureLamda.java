@@ -41,6 +41,7 @@ class writeLamda{
                     {
                         System.out.println("This is lamda as paramter");
                     }
+                    
         
             );
     }
